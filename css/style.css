@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  background-color: lightblue;
+  width: 50%;
+  list-style-type: none;
+  text-align: center;
+}
+
+div {
+  background-color: gold;
+  width: 50%;
+  text-align: center;
+}
